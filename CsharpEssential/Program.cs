@@ -79,7 +79,7 @@ namespace CsharpEssential
             //CONSTANTES E IDENTIFICADORES
 
             /* la constante no cambia y se declara de manera similar a una variable
-             * cons int horas_dia = 24;
+             * const int horas_dia = 24;
              * en caso yo quiera cambiarle el valor c# me dara un error ya que el valor de la constante no va a cambiar.
              * 
              * Identificadores: son palabras clave o reservadas e.g.: int, static namespace, using, etc.
@@ -145,8 +145,8 @@ namespace CsharpEssential
                     break;
                 case 2:
                     num2 += 2;
-                    break
-                    case 3:
+                    break;
+                case 3:
                     num2 += 3;
                     break;
                 default:
